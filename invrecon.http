@@ -1,0 +1,23 @@
+GET http://localhost:4004/sap/opu/odata/sap/API_InventoryRecon/Inventory
+
+
+###POST CALL
+
+POST http://localhost:4004/sap/opu/odata/sap/API_InventoryRecon/Inventory
+Content-Type: application/json
+
+ {
+            "ID": "10",
+            "DateTime": "7/5/22 14:50",
+            "Warehouse": "RJW",
+            "Material": "10001",
+            "Plant": "101A",
+            "StorageLocation": "1001",
+            "Batch": "XYZ",
+            "PartnerUnrestricted": "10",
+            "PartnerBlocked": "10",
+            "PartnerQuality": "10",
+            "S4Unrestricted": "9",
+            "S4Blocked": "11",
+            "S4Quality": "15"
+        }

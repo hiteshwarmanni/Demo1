@@ -1,0 +1,9 @@
+{
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "name": "MyDBAccess",
+            "database": "/home/user/projects/Demo1/invrecon.db"
+        }
+    ]
+}
